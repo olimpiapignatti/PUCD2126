@@ -15,3 +15,5 @@ h3 { font: normal 16px "Raleway", sans-serif; margin: 10px; margin-left: 100px; 
 p { font: normal 15px "Raleway", sans-serif; margin: 12px; color: white; }
 li { font: normal 15px "Raleway", sans-serif; margin: 12px; color: red; }
 a { font: normal 20px 'Open Sans', sans-serif; margin: 12px; color: red; }
+
+a:hover { color: #56a0d3; }
