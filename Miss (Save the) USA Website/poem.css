@@ -9,10 +9,10 @@ html, body { width: 100%; height: 100%; background-color: #141087; }
 	font-family: 'Press Start 2P', cursive;
 	src: url(https://fonts.googleapis.com/css?family=Bahiana|PT+Serif|Open+Sans|Tangerine|Raleway|Press+Start+2P); }
 
-h1 {font: normal 33px 'Open Sans', sans-serif; color: white; margin-left: 30%; margin-right: 20%; margin-top: 200px; }
+h1 {font: normal 30px 'Open Sans', sans-serif; color: white; margin-left: 30%; margin-right: 20%; margin-top: 200px; }
 
 .poem ul {
-font: normal 23px 'Open Sans', sans-serif;
+font: normal 20px 'Open Sans', sans-serif;
 color: white;
 margin-left: 30%;
 margin-right: 20%;
@@ -21,38 +21,212 @@ list-style: none;
 }
 
 
-#eye1 {
+.eyearctic {
 	width: 200px;
 	height: 100px;
 	background: white;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	position: relative; top: 20px; left: 100px;
+	position: fixed; top: 100px; left: 140px;
+	/*position: relative; top: 20px; left: 100px;*/
 	z-index: 1;
 }
 
-#eye2 {
+.eyearctic:hover {
+	put all snow
+}
+
+.eyejungle {
 	width: 200px;
 	height: 100px;
 	background: white;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	position: relative; top: 200px; left: 600px;
+	position:fixed; top: 200px; left: 1200px;
 	z-index: 2;
 }
 
-#eye3 {
+.eyeocean {
 	width: 200px;
 	height: 100px;
 	background: white;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	position: relative; top: 600px; left: 800px;
+	position: fixed; top: 600px; left: 800px;
 	z-index: 3;
 }
 
-do pupils
-do vines
+#pupilarctic {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+	background: black;
+	position: fixed; top: 102px; left: 230px;
+	/*position: relative; top: -275px; left: 140px;*/
+	z-index: 4;
+}
+
+#pupiljungle {
+  height: 87px;
+  width: 87px;
+  border-radius: 50%;
+	background: black;
+	position: fixed; top: 215px; left: 1265px;
+	z-index: 5;
+}
+
+#pupilocean {
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+	background: black;
+	position: fixed; top: 602px; left: 830px;
+	z-index: 6;
+}
+
+#vine1 {
+    width:20px;
+    height:1700px;
+    background:#29b00a;
+		position: absolute; top: 340px; left: 1010px;
+}
+
+#vine2 {
+    width:20px;
+    height:1100px;
+    background:#67b257;
+		position: absolute; top: 240px; left: 210px;
+}
+
+#vine3 {
+    width:20px;
+    height:900px;
+    background:#31ab15;
+		position: absolute; top: 0px; left: 180px;
+}
+
+#vine4 {
+    width:20px;
+    height:3200px;
+    background:#20740e;
+		position: absolute; top: 0px; left: 1110px;
+}
+
+#vine5 {
+    width:20px;
+    height:1050px;
+    background:#18540a;
+		position: absolute; top: 0px; left: 20px;
+}
+
+#vine6 {
+    width:20px;
+    height:800px;
+    background:#18540a;
+		position: absolute; top: 0px; left: 1410px;
+}
+
+#vine7 {
+    width:20px;
+    height:1100px;
+    background:#67b257;
+		position: absolute; top: 440px; left: 10px;
+}
+
+#vine8 {
+    width:20px;
+    height:900px;
+    background:#60755B;
+		position: absolute; top: 20px; left: 1080px;
+}
+
+#vine9 {
+    width:20px;
+    height:1200px;
+    background:#20740e;
+		position: absolute; top: 0px; left: 1310px;
+}
+
+#vine10 {
+    width:20px;
+    height:1050px;
+    background:#18540a;
+		position: absolute; top: 0px; left: 20px;
+}
+
+#vine11 {
+    width:20px;
+    height:1050px;
+    background:#5ac73f;
+		position: absolute; top: 1800px; left: 30px;
+}
+
+#vine12 {
+    width:20px;
+    height:1050px;
+    background:#18540a;
+		position: absolute; top: 2000px; left: 100px;
+}
+
+#vine13 {
+    width:20px;
+    height:700px;
+    background:#7cd268;
+		position: absolute; top: 1900px; left: 450px;
+}
+
+#vine14 {
+    width:20px;
+    height:1150px;
+    background:#18540a;
+		position: absolute; top: 1030px; left: 555px;
+}
+
+#vine15 {
+    width:20px;
+    height:1050px;
+    background:#53764a;
+		position: absolute; top: 2346px; left: 610px;
+}
+
+#vine16 {
+    width:20px;
+    height:950px;
+    background:#329819;
+		position: absolute; top: 1650px; left: 777px;
+}
+
+#vine17 {
+    width:20px;
+    height:1000px;
+    background:#21760d;
+		position: absolute; top: 2000px; left: 893px;
+}
+
+#vine18 {
+    width:20px;
+    height:750px;
+    background:#489437;
+		position: absolute; top: 1800px; left: 910px;
+}
+
+#vine19 {
+    width:20px;
+    height:1050px;
+    background:#6fab60;
+		position: absolute; top: 1200px; left: 1210px;
+}
+
+#vine20 {
+    width:20px;
+    height:700px;
+    background:#104503;
+		position: absolute; top: 1900px; left: 1300px;
+}
+
+.eve {
+		position: relative; top: 700px; left: 400px;
+}
