@@ -33,10 +33,6 @@ list-style: none;
 	z-index: 1;
 }
 
-.eyearctic:hover {
-	put all snow
-}
-
 .eyejungle {
 	width: 200px;
 	height: 100px;
@@ -44,8 +40,16 @@ list-style: none;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	position:fixed; top: 200px; left: 1200px;
+	position: fixed; top: 200px; left: 1200px;
 	z-index: 2;
+}
+
+.snow {
+	width: 200px;
+	height: 100px;
+	background: none;
+	position: fixed; top: 100px; left: 140px;
+	cursor: pointer;
 }
 
 .eyeocean {
@@ -59,13 +63,27 @@ list-style: none;
 	z-index: 3;
 }
 
+.eyearctic:hover {
+	  .snow
+	}
+
+
+.eyejungle:hover {
+	 put leaves + Do you want to see the jungle
+}
+.eyeocean:hover {
+}
+
+.column {
+  height: random(300) + px;
+}
+
 #pupilarctic {
   height: 90px;
   width: 90px;
   border-radius: 50%;
 	background: black;
 	position: fixed; top: 102px; left: 230px;
-	/*position: relative; top: -275px; left: 140px;*/
 	z-index: 4;
 }
 
