@@ -20,6 +20,12 @@ position: absolute;
 list-style: none;
 }
 
+.arctic {
+	width: 200px;
+	height: 100px;
+	background: none;
+	position: fixed; top: 100px; left: 140px;
+}
 
 .eyearctic {
 	width: 200px;
@@ -29,7 +35,6 @@ list-style: none;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
 	position: fixed; top: 100px; left: 140px;
-	/*position: relative; top: 20px; left: 100px;*/
 	z-index: 1;
 }
 
@@ -40,16 +45,8 @@ list-style: none;
 	-moz-border-radius: 100px / 50px;
 	-webkit-border-radius: 100px / 50px;
 	border-radius: 100px / 50px;
-	position: fixed; top: 200px; left: 1200px;
+	position: fixed; top: 200px; left: 1100px;
 	z-index: 2;
-}
-
-.snow {
-	width: 200px;
-	height: 100px;
-	background: none;
-	position: fixed; top: 100px; left: 140px;
-	cursor: pointer;
 }
 
 .eyeocean {
@@ -92,7 +89,7 @@ list-style: none;
   width: 87px;
   border-radius: 50%;
 	background: black;
-	position: fixed; top: 215px; left: 1265px;
+	position: fixed; top: 215px; left: 1165px;
 	z-index: 5;
 }
 
