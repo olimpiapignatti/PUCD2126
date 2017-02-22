@@ -1,12 +1,15 @@
 html, body { width: 100%; height: 100%; background-color: #141087; }
 
 @font-face {
-	font-family: 'Bahiana', cursive;
-	font-family: 'PT Serif', serif;
-	font-family: 'Tangerine', cursive;
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Raleway', sans-serif;
-	font-family: 'Press Start 2P', cursive;
+font-family: 'Akronim', cursive;
+font-family: 'Exo', sans-serif;
+font-family: 'Geo', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Monofett', cursive;
+font-family: 'Poller One', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Yatra One', cursive;
+font-family: 'Open Sans', sans-serif;
 	src: url(https://fonts.googleapis.com/css?family=Bahiana|PT+Serif|Open+Sans|Tangerine|Raleway|Press+Start+2P); }
 
 h1 {font: normal 30px 'Open Sans', sans-serif; color: white; margin-left: 30%; margin-right: 20%; margin-top: 200px; }
@@ -20,11 +23,28 @@ position: absolute;
 list-style: none;
 }
 
-.arctic {
-	width: 200px;
-	height: 100px;
-	background: none;
-	position: fixed; top: 100px; left: 140px;
+.popout-arctic {
+	display: none;
+}
+
+.arctic:hover > .popout-arctic {
+	display: block;
+}
+
+.popout-jungle {
+	display: none;
+}
+
+.jungle:hover > .popout-jungle {
+	display: block;
+}
+
+.popout-ocean {
+	display: none;
+}
+
+.ocean:hover > .popout-ocean {
+	display: block;
 }
 
 .eyearctic {
@@ -60,21 +80,6 @@ list-style: none;
 	z-index: 3;
 }
 
-.eyearctic:hover {
-	  .snow
-	}
-
-
-.eyejungle:hover {
-	 put leaves + Do you want to see the jungle
-}
-.eyeocean:hover {
-}
-
-.column {
-  height: random(300) + px;
-}
-
 #pupilarctic {
   height: 90px;
   width: 90px;
@@ -100,6 +105,22 @@ list-style: none;
 	background: black;
 	position: fixed; top: 602px; left: 830px;
 	z-index: 6;
+}
+
+.eve {
+		width: 417.89px;
+		height: 795.89px;
+		position: relative;
+		top: 1200px; left: 400px;
+}
+
+.eve > ul {
+	font: normal 20px 'Press Start 2P', cursive;
+	color: white;
+	position: absolute;
+	top: 230px; left: -250px;
+	list-style: none;
+	line-height: 1.5;
 }
 
 #vine1 {
@@ -240,8 +261,4 @@ list-style: none;
     height:700px;
     background:#104503;
 		position: absolute; top: 1900px; left: 1300px;
-}
-
-.eve {
-		position: relative; top: 700px; left: 400px;
 }
