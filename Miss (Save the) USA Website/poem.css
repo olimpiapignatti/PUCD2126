@@ -87,6 +87,8 @@ p {
 }
 .ocean:hover > .popout-ocean {
 	display: block;
+	position: absolute;
+	top: 1270px; left: 0px;
 }
 
 .eyearctic {

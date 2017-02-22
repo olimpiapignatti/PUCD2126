@@ -20,10 +20,18 @@ h1 {
 }
 
 .eve {
-		width: 340px;
+		width: 260px;
 		height: 610px;
 		position: fixed;
-		top: 175px; left: 1050px;
+		top: 175px; left: 1100px;
+		text-decoration: none;
+}
+
+.eve:hover::before {
+	content: "Go back home?";
+	font: normal 15px 'Press Start 2P', cursive;
+	color: white;
+
 }
 
 .boat {
