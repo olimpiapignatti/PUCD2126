@@ -26,38 +26,63 @@ h1 {
 		top: 175px; left: 1100px;
 		text-decoration: none;
 }
-
 .eve:hover::before {
 	content: "Go back home?";
 	font: normal 15px 'Press Start 2P', cursive;
 	color: white;
-
+	position: absolute;
+	top: 35px; left: 0px;
 }
 
+.eyenext {
+	width: 120px;
+	height: 60px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 1000px; left: 635px;
+}
+#pupilnext {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: black;
+	position: absolute;
+	top: 1000px; left: 668px;
+}
+.next:hover::before {
+	content: "Next place?";
+	font: normal 15px 'Press Start 2P', cursive;
+	color: white;
+	position: absolute;
+	top: 978px; left: 617px;
+}
+
+/*arctic*/
 .boat {
-	width: 200px;
+	width: 300px;
 	height: 200px;
 	position: absolute;
 	top: 760px; left: 90px;
 }
-
 .boat:hover::before {
-	   content: "boats looking for oil";
+	   content: "Over the past century, the global average sea level has risen four to eight inches. Melting Arctic ice is expected to speed up sea level rise. Some experts even estimate that the oceans will rise as much as 23 feet by 2100, which would flood major coastal cities and submerge some small island countries, causing untold devastation.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #ea318e;
+		 background: #f438d0;
 }
 
 .glacier {
-	width: 270px;
-	height: 250px;
+	width: 450px;
+	height: 400px;
 	position: absolute;
 	top: 400px; left: 120px;
 }
-
 .glacier:hover::before {
-	   content: "ice caps are melting";
+	   content: "Arctic sea ice keeps the planet cool by reflecting sunlight. As the world gets warmer, the ice is melting and the oceans are absorbing sunlight. This makes the planet even warmer, causing the ice to melt even faster. As the Arctic ice melts, the oil under Arctic waters becomes an increasingly attractive target for the oil industry. This oil was once out of reach because the Arctic was frozen but is now accessible because of climate change. And the very companies responsible for climate change want more oil to make climate change worse.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #ea318e;
+		 background: #f438d0;
 }
 
 .polarbear {
@@ -66,11 +91,10 @@ h1 {
 	position: absolute;
 	top: 350px; left: 870px;
 }
-
 .polarbear:hover::before {
-	   content: "Polar Bears are dying";
+	   content: "Climate change has already removed at least 75 percent of Arctic summer sea ice volume at rates never before experienced in human history. This threatens the unique environment the Arctic provides as well as its wildlife, indigenous population and their culture. Soon, the Arctic Ocean will be like other oceans for much of the year: open water that is exposed to exploitation and environmental destruction.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #ea318e;
+		 background: #f438d0;
 }
 
 .ferrel {
@@ -79,11 +103,10 @@ h1 {
 	position: absolute;
 	top: 660px; left: 800px;
 }
-
 .ferrel:hover::before {
-	   content: "so hot";
+	   content: "https://www.savethearctic.org/en-US/peoplevsarcticoil/";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #ea318e;
+		 background: #f438d0;
 }
 
 .penguin {
@@ -92,24 +115,23 @@ h1 {
 	position: absolute;
 	top: 720px; left: 950px;
 }
-
 .penguin:hover::before {
-	   content: "we dont know where to go!";
+	   content: "https://www.change.org/p/tell-president-obama-no-new-offshore-drilling-in-america-s-arctic";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #ea318e;
+		 background: #f438d0;
 }
 
+/*ocean*/
 .yellow {
-	width: 240px;
+	width: 300px;
 	height: 210px;
 	position: absolute;
 	top: 660px; left: 110px;
 }
-
 .yellow:hover::before {
-	   content: "full of trash!";
+	   content: "There is an island of garbage twice the size of Texas inside the Pacific Ocean: the North Pacific Gyre off the coast of California is the largest oceanic garbage site in the entire world. There, the number of floating plastic pieces outnumbers total marine life six to one in the immediate vicinity.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #fdf77b;
+		 background: #f9f029;
 }
 
 .stripes {
@@ -118,11 +140,10 @@ h1 {
 	position: absolute;
 	top: 400px; left: 270px;
 }
-
 .stripes:hover::before {
-	   content: "gyres of trash";
+	   content: "A single cargo ship can produce as much air pollution as 350,000 cars in an hour. Cargo ships operate on diesel engines the size of a single-family home, and most burn “bunker” fuel, which is cheap, but much more polluting than fuels used to power vehicles. Bunker fuel contains high concentrations of toxic compounds banned from use in most other industrial and consumer applications.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #fdf77b;
+		 background: #f9f029;
 }
 
 .green {
@@ -131,50 +152,47 @@ h1 {
 	position: absolute;
 	top: 640px; left: 800px;
 }
-
 .green:hover::before {
-	   content: "ew ew!";
+	   content: "http://action.foe.org/p/dia/action3/common/public/?action_KEY=20704&okay=true" ;
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #fdf77b;
+		 background: #f9f029;
 }
 
 .group {
-	width: 410px;
-	height: 190px;
+	width: 390px;
+	height: 200px;
 	position: absolute;
 	top: 830px; left: 350px;
 }
-
 .group:hover::before {
-	   content: "lets get out of here";
+	   content: "All up, reefs are home to 25% of all marine life, and form the nurseries for about a quarter of the ocean's fish -  including commercially important species that could end up on your dinner plate any night of the week. Roughly one-quarter of coral reefs worldwide are already considered damaged beyond repair, with another two-thirds under serious threat.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #fdf77b;
+		 background: #f9f029;
 }
 
 .small {
-	width: 200px;
+	width: 290px;
 	height: 150px;
 	position: absolute;
 	top: 320px; left: 900px;
 }
-
 .small:hover::before {
-	   content: "all the waste comes in here";
+	   content: "At this rate by 2100 more than half of the world’s marine species may stand on the brink of extinction.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #fdf77b;
+		 background: #f9f029;
 }
 
+/*jungle*/
 .orangutan {
 	width: 270px;
 	height: 210px;
 	position: absolute;
 	top: 660px; left: 120px;
 }
-
 .orangutan:hover::before {
-	   content: "kinda still worth it!";
+	   content: "The world’s rain forests could completely vanish in a hundred years at the current rate of deforestation. Some 46-58 thousand square miles of forest are lost each year—equivalent to 48 football fields every minute.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f49708;
+		 background: #2ae300;
 }
 
 .snake {
@@ -183,35 +201,32 @@ h1 {
 	position: absolute;
 	top: 400px; left: 900px;
 }
-
 .snake:hover::before {
-	   content: "all the waste comes in here";
+	   content: "https://www.rainforest-rescue.org/petitions";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f49708;
+		 background: #2ae300;
 }
 
-.mogli {
-	width: 200px;
-	height: 150px;
+.parrot {
+	width: 300px;
+	height: 250px;
 	position: absolute;
-	top: 400px; left: 1100px;
+	top: 300px; left: 400px;
 }
-
-.mogli:hover::before {
-	   content: "iiii mustt buy from companies that cut down rainforests for Palm oil ";
+.parrot:hover::before {
+	   content: "Forests play a critical role in mitigating climate change because they act as a carbon sink—soaking up carbon dioxide that would otherwise be free in the atmosphere and contribute to ongoing changes in climate patterns. Deforestation undermines this important carbon sink function. It is estimated that 15% of all greenhouse gas emissions are the result of deforestation.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f49708;
+		 background: #2ae300;
 }
 
 .dunkin {
-	width: 150px;
-	height: 200px;
+	width: 400px;
+	height: 270px;
 	position: absolute;
 	top: 670px; left: 460px;
 }
-
 .dunkin:hover::before {
-	   content: "whatever just cut it down. American needs its coffee!";
+	   content: "Agricultural products, such as soy and palm oil, are used in an ever-increasing list of products, from animal feed to lipstick and biofuels. For this reason Palm oil has become one of the world’s leading causes of rainforest destruction. Unchecked expansion has pushed palm oil plantations into the heart of some of the world’s most biologically diverse ecosystems and is among the biggest threats driving iconic wildlife species like the Sumatran orangutang to the brink of extinction in Indonesia.";
 		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f49708;
+		 background: #2ae300;
 }
