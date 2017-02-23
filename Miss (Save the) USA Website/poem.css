@@ -294,3 +294,19 @@ h2 {
     background:#104503;
 		position: absolute; top: 1900px; left: 1300px;
 }
+
+#links > a {
+	font: normal 30px 'Open Sans', sans-serif;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	margin: 40px;
+	position: relative;
+	top: 800px; left: 110px;
+}
+
+#links > a:hover {
+	font: italic 30px 'Open Sans', sans-serif;
+	color: #ffeb2a;
+}

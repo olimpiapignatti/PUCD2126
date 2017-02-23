@@ -92,30 +92,35 @@ h1 {
 	top: 350px; left: 870px;
 }
 .polarbear:hover::before {
-	   content: "Climate change has already removed at least 75 percent of Arctic summer sea ice volume at rates never before experienced in human history. This threatens the unique environment the Arctic provides as well as its wildlife, indigenous population and their culture. Soon, the Arctic Ocean will be like other oceans for much of the year: open water that is exposed to exploitation and environmental destruction.";
-		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f438d0;
-}
-
-.ferrel {
-	width: 185px;
-	height: 355px;
-	position: absolute;
-	top: 660px; left: 800px;
-}
-.ferrel:hover::after > a {
+	content: "Climate change has already removed at least 75 percent of Arctic summer sea ice volume at rates never before experienced in human history. This threatens the unique environment the Arctic provides as well as its wildlife, indigenous population and their culture. Soon, the Arctic Ocean will be like other oceans for much of the year: open water that is exposed to exploitation and environmental destruction.";
 	font: normal 17px 'Open Sans', sans-serif;
 	background: #f438d0;
 }
 
-.penguin {
+.ferrel {
 	width: 300px;
-	height: 170px;
+	height: 350px;
 	position: absolute;
-	top: 720px; left: 950px;
+	top: 700px; left: 700px;
 }
-.penguin:hover::before {
-	content: "https://www.change.org/p/tell-president-obama-no-new-offshore-drilling-in-america-s-arctic";
+.ferrel:hover::before {
+	content: "The Atlantic sea current circulation moves heat toward the Arctic, and helps moderate wintertime temperatures in the high-latitude Northern Hemisphere. Ice melting in the Arctic could would release excessive amounts of freshwater into the North Atlantic and alter seawater density which, in time, would affect the flow of the ocean current, and create harsher weather extremes in Europe and North America. ";
+	font: normal 17px 'Open Sans', sans-serif;
+	background: #f438d0;
+}
+
+.penguin > a {
+	width: 200px;
+	height: 25px;
+	font: normal 17px 'Open Sans', sans-serif;
+	background: #f438d0;
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	top: 720px; left: 980px;
+}
+.penguin > a:hover::before {
+	content: "Statoil, an oil company owned by the Norwegian state, plans to aggressively expand oil drilling in the melting Arctic. In a historic court case, GREENPEACE is suing the Norwegian government for allowing Statoil and many other oil companies to expand oil drilling in the Arctic.";
 	font: normal 17px 'Open Sans', sans-serif;
 	background: #f438d0;
 }
@@ -145,16 +150,20 @@ h1 {
 		 background: #f9f029;
 }
 
-.green {
-	width: 310px;
-	height: 180px;
+.green > a {
+	width: 265px;
+	height: 24px;
+	font: normal 17px 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: black;
+	background: #f9f029;
 	position: absolute;
-	top: 640px; left: 800px;
+	top: 610px; left: 800px;
 }
-.green:hover::before {
-	   content: "http://action.foe.org/p/dia/action3/common/public/?action_KEY=20704&okay=true" ;
-		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f9f029;
+.green > a:hover::before {
+	content: "Tell Donald Trump not to appoint corporate lobbyists in his Administration. We need a government that puts our interests and those of our planet, ahead of Big Oil’s, Wall Street’s and other corporations that favour industry over our planet. Donald Trump convinced voters that things would be different in his Administration, but so far he’s doing the opposite.";
+  font: normal 17px 'Open Sans', sans-serif;
+	background: #f9f029;
 }
 
 .group {
@@ -194,16 +203,20 @@ h1 {
 		 background: #2ae300;
 }
 
-.snake {
+.snake > a {
 	width: 200px;
-	height: 150px;
+	height: 25px;
+	font: normal 17px 'Open Sans', sans-serif;
+	color: black;
+	text-decoration: none;
+	background: #2ae300;
 	position: absolute;
-	top: 400px; left: 900px;
+	top: 320px; left: 900px;
 }
-.snake:hover::before {
-	   content: "https://www.rainforest-rescue.org/petitions";
-		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #2ae300;
+.snake > a:hover::before {
+	content: "Inform  yourself on all the important petitions that Rainforest Rescue has set up and get involved!";
+	font: normal 17px 'Open Sans', sans-serif;
+	background: #2ae300;
 }
 
 .parrot {
