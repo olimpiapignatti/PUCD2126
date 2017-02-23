@@ -103,10 +103,9 @@ h1 {
 	position: absolute;
 	top: 660px; left: 800px;
 }
-.ferrel:hover::before {
-	   content: "https://www.savethearctic.org/en-US/peoplevsarcticoil/";
-		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f438d0;
+.ferrel:hover::after > a {
+	font: normal 17px 'Open Sans', sans-serif;
+	background: #f438d0;
 }
 
 .penguin {
@@ -116,9 +115,9 @@ h1 {
 	top: 720px; left: 950px;
 }
 .penguin:hover::before {
-	   content: "https://www.change.org/p/tell-president-obama-no-new-offshore-drilling-in-america-s-arctic";
-		 font: normal 17px 'Open Sans', sans-serif;
-		 background: #f438d0;
+	content: "https://www.change.org/p/tell-president-obama-no-new-offshore-drilling-in-america-s-arctic";
+	font: normal 17px 'Open Sans', sans-serif;
+	background: #f438d0;
 }
 
 /*ocean*/
