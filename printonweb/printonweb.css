@@ -13,14 +13,15 @@ html, body {
   -webkit-flex-direction: row-reverse;
   display: flex;
   flex-direction: row-reverse;
+  margin: 10px;
 }
 h1, h2, h3, h4 {
-  font: normal 35px "Montserrat", sans-serif;
+  font: normal 30px "Montserrat", sans-serif;
   color: white;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 h1{
   text-align: center;
@@ -47,7 +48,9 @@ p { font: normal 17px "Montserrat", sans-serif; color: orange; }
 
 .article {
 width: 1500px;
-background-image:  url("P1060522.JPG");
+height: 700px;
+background-image: url("P1060522.JPG");
+background-size: cover;
 margin: auto;
 }
 
@@ -59,7 +62,7 @@ margin: auto;
 }
 
 .articleright {
-  width: 300px;
+  width: 450px;
   text-align: right;
   float: right;
   margin: 20px;
