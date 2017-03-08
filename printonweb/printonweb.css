@@ -20,7 +20,7 @@ h1, h2, h3, h4 {
   color: white;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 50px;
+  margin-top: 2px;
   margin-bottom: 50px;
 }
 h1{
@@ -51,19 +51,20 @@ width: 1500px;
 height: 700px;
 background-image: url("P1060522.JPG");
 background-size: cover;
-margin: auto;
 }
 
 .articleleft {
   width: 450px;
   text-align: left;
   float: left;
-  margin: 20px;
+  margin-top: 10px;
+  margin-left: 27px;
 }
 
 .articleright {
   width: 450px;
   text-align: right;
   float: right;
-  margin: 20px;
+  margin-top: 10px;
+  margin-right: 27px;
 }
