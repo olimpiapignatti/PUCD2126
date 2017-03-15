@@ -68,3 +68,7 @@ background-size: cover;
   margin-top: 10px;
   margin-right: 27px;
 }
+
+@media (max-width: 599px) {
+  font: normal 10px "Montserrat", sans-serif;
+}
