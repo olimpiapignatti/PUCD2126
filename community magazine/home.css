@@ -30,7 +30,7 @@ h1{
     text-align: center;
     color: black;
     letter-spacing: 0;
-    margin: 150px auto 10px auto;
+    margin: 15px auto 10px auto;
     }
 
 h2{
@@ -42,27 +42,47 @@ h2{
     color: black;
     letter-spacing: 0;
     line-height: 1.2;
-    margin: 15px auto ;
+    margin: 15px auto 0 auto;
 }
 
 h3{
   /* Interview Questions */
-  font-family: 'Raleway', sans-serif;
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
   color: black;
-  margin: 30px 0;
-  font-size: 21px;
+  font-size: 35px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 1;
+  padding: 6px;
+  text-align: center;
+  margin: 600px auto 10px auto;
+}
+
+a{
+  /* Interview Questions */
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 1.5;
+  padding: 6px;
+  text-align: center;
+  margin: 600px auto 10px auto;
+  text-decoration: none;
 }
 
 p{
     /* Lorem ipsum dolor si: */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Josefin Slab', serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 25px;
     color: #000000;
     letter-spacing: 0;
     line-height: 1.7;
+    margin: auto;
 }
 
 blockquote{
@@ -157,10 +177,42 @@ blockquote{
 /*individial things*/
 
 .heading .col-8 img{
-  padding: 0;
-  margin: auto;
+    padding: 0;
+    margin: auto;
 }
 
-h1 .col-4 {
+p .col-4 {
+    margin: auto;
+}
+
+.semana {
+    background-image:url(img/semana3.jpg);
+    height:100%;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.dakota{
+  background-image:url(img/dakota6.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  border-width: 10px;
+  border-color: #096463;
+  border-style: solid;
+}
+
+.hasid{
+  background-image:url(img/hasid.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  border-width: 10px;
+  border-color: #096463;
+  border-style: solid;
+  margin-left: 50%;
 
 }
