@@ -1,0 +1,166 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Josefin Slab', serif;
+}
+
+/*Type Styles */
+
+.logo p{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 800;
+  font-size: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+h1{
+    /* An Awesome Article T: */
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+    letter-spacing: 0;
+    margin: 150px auto 10px auto;
+    }
+
+h2{
+    /* A Sweet article intr: */
+    font-family: 'Josefin Slab', serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 0120px;
+    color: black;
+    letter-spacing: 0;
+    line-height: 1.2;
+    margin: 15px auto ;
+}
+
+h3{
+  /* Interview Questions */
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  color: black;
+  margin: 30px 0;
+  font-size: 21px;
+}
+
+p{
+    /* Lorem ipsum dolor si: */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 1.7;
+}
+
+blockquote{
+
+}
+
+/*Global Layout */
+.logo {
+  font-family: 'Josefin Slab', serif;
+  font-size: 100px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 25px 5px;
+    border: 1px dashed rgba(255,0,0,0.3);
+    display: inline-block;
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.grid-base .col-1{
+    height: 8000px;
+}
+
+/* Article Layout*/
+
+.heading{
+    background-color: #EED70E;
+    height:100%;
+    padding: 0;
+}
+
+.heading h1{
+    position: relative;
+}
+
+.meta{
+    margin-left: 8.33%;
+}
+
+.meta li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.30);
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 7px 0;
+}
+
+
+.content-img-landscape{
+    margin: 0;
+    width: 100%;
+}
+
+.content-img-portrait{
+    margin: 0 17.5%;
+}
+
+.content.col-8{
+    margin-left: 16.66%;
+    margin-bottom: 30px;
+}
+
+.content.subheading.col-6{
+    margin-left: 25%;
+}
+
+
+/*individial things*/
+
+.heading .col-8 img{
+  padding: 0;
+  margin: auto;
+}
+
+h1 .col-4 {
+
+}
