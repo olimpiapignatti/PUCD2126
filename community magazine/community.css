@@ -17,7 +17,7 @@ html,body{
   font-family: 'Josefin Slab', serif;
   font-weight: 800;
   font-size: 70px;
-  margin: -10px;
+  margin: auto;
   text-align: center;
 }
 
@@ -63,6 +63,7 @@ p{
     color: #000000;
     letter-spacing: 0;
     line-height: 1.7;
+    margin: 10px auto;
 }
 
 blockquote{
@@ -91,7 +92,7 @@ blockquote{
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-    float: left;
+    /*float: left;*/
     padding: 25px 5px;
     /*border: 1px dashed rgba(255,0,0,0.3);*/
     display: inline-block;
@@ -103,8 +104,9 @@ blockquote{
     left: 0;
     width: 100%;
 }
+
 .grid-base .col-1{
-    height: 8000px;
+    height: 4000px;
 }
 
 /* Article Layout*/
@@ -142,17 +144,18 @@ blockquote{
 
 
 .content-img-landscape{
-    margin: 0;
+    margin: 10px;
     width: 100%;
 }
 
 .content-img-portrait{
-    margin: 0 17.5%;
+    margin: 20px auto 4px auto;
+    width: 100%
 }
 
 .content.col-8{
     margin-left: 16.66%;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
 }
 
 .content.subheading.col-6{

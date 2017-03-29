@@ -59,7 +59,7 @@ h3{
   margin: 600px auto 10px auto;
 }
 
-.dakota a{
+a{
   /* Interview Questions */
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
@@ -89,10 +89,6 @@ p{
     letter-spacing: 0;
     line-height: 1.7;
     margin: auto;
-}
-
-blockquote{
-
 }
 
 /*Global Layout */
@@ -144,22 +140,6 @@ blockquote{
 .heading h1{
     position: relative;
 }
-
-.meta{
-    margin-left: 8.33%;
-}
-
-.meta li{
-    list-style: none;
-    font-weight: 400;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: rgba(0,0,0,0.30);
-    letter-spacing: 1px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    padding: 7px 0;
-}
-
 
 .content-img-landscape{
     margin: 0;
