@@ -59,7 +59,7 @@ h3{
   margin: 600px auto 10px auto;
 }
 
-a{
+.dakota a{
   /* Interview Questions */
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
@@ -72,6 +72,12 @@ a{
   text-align: center;
   margin: 600px auto 10px auto;
   text-decoration: none;
+}
+
+a:hover{
+  font-style: italic;
+  color: #ffeb2a;
+
 }
 
 p{
@@ -211,8 +217,7 @@ p .col-4 {
   background-size: cover;
   float: left;
   border-width: 10px;
-  border-color: #096463;
+  border-color: #E10E0B;
   border-style: solid;
-  margin-left: 50%;
 
 }
