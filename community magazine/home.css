@@ -59,7 +59,21 @@ h3{
   margin: 600px auto 10px auto;
 }
 
-a{
+a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 1;
+  padding: 6px;
+  text-align: center;
+  margin: 600px auto 10px auto;
+  display: block;
+}
+
+.col-6 a {
   /* Interview Questions */
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
