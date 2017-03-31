@@ -66,10 +66,6 @@ p{
     margin: 10px auto;
 }
 
-blockquote{
-
-}
-
 /*Global Layout */
 .logo {
   font-family: 'Josefin Slab', serif;
@@ -92,7 +88,7 @@ blockquote{
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-    /*float: left;*/
+    float: left;
     padding: 25px 5px;
     /*border: 1px dashed rgba(255,0,0,0.3);*/
     display: inline-block;
@@ -111,12 +107,20 @@ blockquote{
 
 /* Article Layout*/
 
-.heading{
+.dakota.heading{
     background-image:url(img/dakota6.jpg);
     height:100%;
     background-position: center;
     background-size: cover;
     padding: 0;
+}
+
+.hasid.heading{
+  background-image:url(img/hasid9.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
 }
 
 .heading h1{
@@ -128,17 +132,13 @@ blockquote{
 }
 
 .meta{
-    margin-left: 8.33%;
-}
-
-.meta li{
     list-style: none;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
     text-transform: uppercase;
     color: rgba(0,0,0,0.30);
     letter-spacing: 1px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
     padding: 7px 0;
 }
 
@@ -158,6 +158,20 @@ blockquote{
     margin-bottom: 33px;
 }
 
+.content.col-6{
+    margin-left: 25%;
+    margin-bottom: 33px;
+}
+
 .content.subheading.col-6{
     margin-left: 25%;
+}
+
+.content.subheading.col-10{
+    margin-left: 8.33%;
+}
+
+
+.image{
+  margin: 0px auto;
 }

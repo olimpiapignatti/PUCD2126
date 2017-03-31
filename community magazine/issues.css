@@ -1,0 +1,192 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Josefin Slab', serif;
+}
+
+/*Type Styles */
+
+.logo p{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 800;
+  font-size: 70px;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 120px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    }
+
+h2{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 500;
+    font-size: 35px;
+    font-style: italic;
+    color: black;
+    line-height: 0.2;
+    text-align: right;
+    margin: 0 0 100px 0;
+}
+
+p{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
+    line-height: 1.7;
+    margin: 20px 0 20px 30px;
+}
+
+a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+  font-size: 35px;
+  line-height: 1;
+  text-align: left;
+  text-decoration: none;
+  margin: 600px auto 10px auto;
+  display: block;
+}
+
+.col-6 a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 1.5;
+  padding: 6px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.col-12 a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  padding: 6px;
+  margin: auto;
+  text-decoration: none;
+}
+
+a:hover{
+  font-style: italic;
+  color: red;
+  font-size: 38px;
+}
+
+/*Global Layout */
+.logo {
+  font-family: 'Josefin Slab', serif;
+  font-size: 100px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 20px 20px;
+    border: 1px dashed rgba(255,0,0,0.3);
+    display: inline-block;
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.grid-base .col-1{
+    height: 8000px;
+}
+
+/* Article Layout*/
+.cross {
+   width: 100px;
+   height: 100px;
+   position: fixed;
+}
+.cross:before{
+  content: "";
+  position: fixed;
+  background: red;
+}
+.cross:after {
+  content: "";
+  position: fixed;
+  background: #89FFDC;
+}
+.cross:before {
+  top: 230px;
+  left: 30px;
+  width: 60px;
+  height: 10px;
+}
+.cross:after {
+  top: 205px;
+  left: 54px;
+  height: 60px;
+  width: 10px;
+}
+
+
+.title{
+    font-style: italic;
+    background-color: #89FFDC;
+    border: 80px;
+    border-style: solid;
+    border-color: #FFAF06;
+    padding: 0;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/*individial things*/
+
+img.col-6{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*articles*/
+
+.religion {
+    float: left;
+    margin: 0px;
+}
+
+.religion a {
+  margin: 6.5% 0 4% 785px;
+}
+
+.untouched a {
+  margin: 5.8% 0 4% 785px;
+}
