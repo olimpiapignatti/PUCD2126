@@ -1,14 +1,14 @@
 *{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,body{
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Josefin Slab', serif;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Josefin Slab', serif;
 }
 
 /*Type Styles */
@@ -22,32 +22,32 @@ html,body{
 }
 
 h1{
-    font-family: 'Josefin Slab', serif;
-    font-weight: 700;
-    font-size: 120px;
-    text-align: center;
-    color: black;
-    margin: 40px auto 0 auto;
-    }
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+  font-size: 120px;
+  text-align: center;
+  color: black;
+  margin: 40px auto 0 auto;
+}
 
 h2{
-    font-family: 'Josefin Slab', serif;
-    font-weight: 500;
-    font-size: 35px;
-    font-style: italic;
-    color: black;
-    line-height: 0.2;
-    text-align: right;
-    margin: 0 0 100px 0;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: italic;
+  color: black;
+  line-height: 0.2;
+  text-align: right;
+  margin: 0 0 100px 0;
 }
 
 p{
-    font-family: 'Josefin Slab', serif;
-    font-weight: 400;
-    font-size: 35px;
-    color: black;
-    line-height: 1.4;
-    margin: 20px 0 20px 955px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+  line-height: 1.4;
+  margin: 20px 0 20px 955px;
 }
 
 .heading>p:hover{
@@ -129,27 +129,16 @@ a:hover{
 .col-12 {width: 100%;}
 
 [class*="col-"] {
-    float: left;
-    padding: 25px 5px;
-    border: 1px dashed rgba(255,0,0,0.3);
-    display: inline-block;
-}
-
-.grid-base{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-}
-.grid-base .col-1{
-    height: 8000px;
+  float: left;
+  padding: 25px 5px;
+  display: block;
 }
 
 /* Article Layout*/
 .cross {
-   width: 100px;
-   height: 100px;
-   position: fixed;
+  width: 100px;
+  height: 100px;
+  position: fixed;
 }
 .cross:before{
   content: "";
@@ -175,32 +164,14 @@ a:hover{
 }
 
 .heading{
-    background-color: #FFAF06;
-    height:100%;
-    padding: 0;
-    margin: 0 10px 0 10px;
+  background-color: #FFAF06;
+  height:100%;
+  padding: 0;
+  margin: 0 10px 0 10px;
 }
 
 .heading h1{
-    position: relative;
-}
-
-.content-img-landscape{
-    margin: 0;
-    width: 100%;
-}
-
-.content-img-portrait{
-    margin: 0 17.5%;
-}
-
-.content.col-8{
-    margin-left: 16.66%;
-    margin-bottom: 30px;
-}
-
-.content.subheading.col-6{
-    margin-left: 25%;
+  position: relative;
 }
 
 .hover:hover{
@@ -212,23 +183,22 @@ a:hover{
 /*individial things*/
 
 .heading .col-8 img{
-    padding: 0;
-    margin: auto;
+  padding: 0;
+  margin: auto;
 }
 
 p .col-4 {
-    margin: auto;
+  margin: auto;
 }
 
 /*articles*/
-
 .semana {
-    background-image:url(img/semana6.jpg);
-    height:100%;
-    background-position: center;
-    background-size: cover;
-    float: left;
-    margin: 10px;
+  background-image:url(img/semana6.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 10px;
 }
 
 .dakota{
@@ -241,7 +211,7 @@ p .col-4 {
 }
 
 .sweetgrass{
-  background-image:url(img/sweetgrass.jpg);
+  background-image:url(img/sweetgrass1.jpg);
   height:100%;
   background-position: center;
   background-size: cover;
@@ -274,4 +244,109 @@ p .col-4 {
   background-size: cover;
   float: left;
   margin: 10px 0 10px 0;
+}
+/*media querey*/
+
+@media screen and (max-width: 1560px){
+  /*for big screen*/
+  .col-m-5 {width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  /*tablet size - if the screen is smaller than 1000 then apply these */
+  .col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
+}
+
+@media screen and (max-width: 760px){
+  /*smaller mobile size - if the screen is smaller than 760 then apply these */
+
+  [class*="col-"] {
+    width: 100%;
+    padding: 0;
+  }
+
+  .col-p-6{
+    width: 100%;
+  }
+  .col-p-12{
+    width: 100%;
+  }
+
+  .a{
+    margin: 0!important;
+  }
+  .logo{
+    width: 100%;
+    margin: 0 23%;
+
+  }
+  .logo p{
+    text-align: center;
+    font-size: 120px;
+  }
+  h1{
+    font-size: 130px;
+    margin: 30px 25px 0 20px;
+    text-align: left;
+    padding-left: 10px!important;
+  }
+  h2{
+    margin: 0 0 20px 0;
+    font-size: 35px;
+    padding-right: 35px!important;
+  }
+  p{
+    font-size: 35px;
+    margin: 20px 65px;
+  }
+
+  .heading{
+    width: 250%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+  }
+
+  img.col-p-12{
+    width: 95%;
+    margin: 0 2.5%;
+  }
+
+  .semana.col-p-12{
+    width: 250%;
+    margin: 0;
+  }
+  .dakota.col-p-12{
+    width: 250%;
+    margin: 0;
+  }
+  .sweetgrass.col-p-12{
+    width: 250%;
+    margin: 0;
+  }
+  .summerpasture.col-p-12{
+    width: 250%;
+    margin: 0;
+  }
+  .holyhell.col-p-12{
+    width: 250%;
+    margin: 0;
+  }
+  .hasid.col-p-12{
+    width: 250%;
+    margin: 0;
+  }
+
 }

@@ -164,6 +164,20 @@ p{
   background-size: cover;
   padding: 0;
 }
+.summerpasture.heading{
+  background-image:url(img/pastures5.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+.sweetgrass.heading{
+  background-image:url(img/sweetgrass1.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
 
 .heading h1{
     position: relative;
@@ -176,25 +190,22 @@ p{
 .meta{
     list-style: none;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     color: rgba(0,0,0,0.30);
     letter-spacing: 1px;
     text-align: center;
-    padding: 7px 0;
+    padding: 5px 0;
 }
-
 
 .content-img-landscape{
     margin: 10px;
     width: 100%;
 }
-
 .content-img-portrait{
     margin: 20px auto 4px auto;
     width: 100%;
 }
-
 .col-6.content-img-portrait.left{
     margin: 20px auto 4px auto;
     width: 50%;
@@ -206,20 +217,28 @@ p{
     float: right;
 }
 
+.col-5.content-img-portrait.left{
+    margin: 20px 3% 4px 2.5%;
+    width: 45%;
+    float: left;
+}
+.col-5.content-img-portrait.right{
+    margin: 20px 1% 4px 2.5%;
+    width: 45%;
+    float: left;
+}
+
 .content.col-8{
     margin-left: 16.66%;
     margin-bottom: 33px;
 }
-
 .content.col-6{
     margin-left: 25%;
     margin-bottom: 33px;
 }
-
 .content.subheading.col-6{
     margin-left: 25%;
 }
-
 .content.subheading.col-10{
     margin-left: 8.33%;
 }
@@ -227,4 +246,8 @@ p{
 
 .image{
   margin: 0px auto;
+}
+iframe{
+  margin: auto;
+  display: block;
 }

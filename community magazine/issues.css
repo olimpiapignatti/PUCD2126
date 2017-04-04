@@ -24,7 +24,7 @@ html,body{
 h1{
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
-    font-size: 120px;
+    font-size: 100px;
     text-align: center;
     color: black;
     margin: auto;
@@ -113,7 +113,6 @@ a:hover{
 [class*="col-"] {
     float: left;
     padding: 20px 20px;
-    border: 1px dashed rgba(255,0,0,0.3);
     display: inline-block;
 }
 
@@ -160,7 +159,7 @@ a:hover{
 .title{
     font-style: italic;
     background-color: #89FFDC;
-    border: 80px;
+    border: 65px;
     border-style: solid;
     border-color: #FFAF06;
     padding: 0;
@@ -189,4 +188,13 @@ img.col-6{
 
 .untouched a {
   margin: 5.8% 0 4% 785px;
+}
+
+@media screen and (max-width: 760px){
+  /*smaller mobile size - if the screen is smaller than 760 then apply these */
+  [class*="col-"] {
+    width: 100%;
+    padding: 0;
+  }
+
 }
