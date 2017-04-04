@@ -59,7 +59,7 @@ a {
   line-height: 1;
   text-align: left;
   text-decoration: none;
-  margin: 600px auto 10px auto;
+  margin: 56% auto 10px auto;
   display: block;
 }
 
@@ -85,7 +85,7 @@ a {
 
 a:hover{
   font-style: italic;
-  color: red;
+  color: #2b9c6c;
   font-size: 38px;
 }
 
@@ -183,18 +183,52 @@ img.col-6{
 }
 
 .religion a {
-  margin: 6.5% 0 4% 785px;
+  margin: 6.5% 0 4% 55%;
 }
 
 .untouched a {
-  margin: 5.8% 0 4% 785px;
+  margin: 5.8% 0 4% 55%;
 }
 
 @media screen and (max-width: 760px){
   /*smaller mobile size - if the screen is smaller than 760 then apply these */
   [class*="col-"] {
-    width: 100%;
+    width: 250%;
     padding: 0;
   }
 
+  .col-p-12{
+    width: 100%;
+  }
+
+  .title.col-p-12{
+    width: 250%;
+  }
+  .religion.col-p-12{
+    width: 250%;
+  }
+  .untouched.col-p-12{
+    width: 250%;
+  }
+
+h1{
+  font-size: 90px;
 }
+
+.religion a{
+  margin: 10px auto;
+}
+.untouched a{
+  margin: 10px auto;
+}
+
+.col-12 a{
+  padding: 20px;
+  padding-left: 23%;
+  margin: 0 20px;
+}
+img.col-6{
+  margin: 0 0 20px 0;
+}
+
+  }
