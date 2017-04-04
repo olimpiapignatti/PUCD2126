@@ -107,6 +107,35 @@ p{
 
 /* Article Layout*/
 
+.cross {
+   width: 100px;
+   height: 100px;
+   position: fixed;
+}
+.cross:before{
+  content: "";
+  position: fixed;
+  background: red;
+}
+.cross:after {
+  content: "";
+  position: fixed;
+  background: #9387CA;
+}
+.cross:before {
+  top: 230px;
+  left: 30px;
+  width: 60px;
+  height: 10px;
+}
+.cross:after {
+  top: 205px;
+  left: 54px;
+  height: 60px;
+  width: 10px;
+}
+
+
 .dakota.heading{
     background-image:url(img/dakota6.jpg);
     height:100%;
@@ -114,9 +143,22 @@ p{
     background-size: cover;
     padding: 0;
 }
-
 .hasid.heading{
   background-image:url(img/hasid9.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+.semana.heading{
+  background-image:url(img/semana12.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+.holyhell.heading{
+  background-image:url(img/holyhell.jpg);
   height:100%;
   background-position: center;
   background-size: cover;
@@ -150,7 +192,18 @@ p{
 
 .content-img-portrait{
     margin: 20px auto 4px auto;
-    width: 100%
+    width: 100%;
+}
+
+.col-6.content-img-portrait.left{
+    margin: 20px auto 4px auto;
+    width: 50%;
+    float: left;
+}
+.col-6.content-img-portrait.right{
+    margin: 20px auto 4px auto;
+    width: 50%;
+    float: right;
 }
 
 .content.col-8{
