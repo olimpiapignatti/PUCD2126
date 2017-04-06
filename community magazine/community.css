@@ -24,7 +24,6 @@ html,body{
 }
 
 h1{
-    /* An Awesome Article T: */
     font-family: 'Josefin Slab', serif;
     font-weight: 700;
     font-size: 44px;
@@ -36,7 +35,6 @@ h1{
     }
 
 h2{
-    /* A Sweet article intr: */
     font-weight: 500;
     font-style: italic;
     text-align: center;
@@ -76,9 +74,6 @@ h3{
   text-align: center;
 }
 
-.menu {
-  
-}
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -96,7 +91,6 @@ h3{
 [class*="col-"] {
     float: left;
     padding: 25px 5px;
-    /*border: 1px dashed rgba(255,0,0,0.3);*/
     display: inline-block;
 }
 
@@ -112,35 +106,67 @@ h3{
 }
 
 /* Article Layout*/
+.cross-container.left {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 3.4%;
 
-.cross {
-   width: 100px;
-   height: 100px;
-   position: fixed;
 }
-.cross:before{
-  content: "";
-  position: fixed;
+.cross-x.left {
+  position: absolute;
   background: red;
-}
-.cross:after {
-  content: "";
-  position: fixed;
-  background: #89FFDC;
-}
-.cross:before {
-  top: 230px;
-  left: 30px;
+  top: 25px;
+  left: 0px;
   width: 60px;
   height: 10px;
 }
-.cross:after {
-  top: 205px;
-  left: 54px;
+.cross-y.left {
+  position: absolute;
+  background: #89FFDC;
+  top: 0px;
+  left: 25px;
   height: 60px;
   width: 10px;
 }
+.cross-container.left:hover {
+  transform: rotate(45deg);
+  content: "Issues";
+}
 
+.cross-container.right {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 92%;
+}
+.cross-x.right {
+  position: absolute;
+  background: red;
+  top: 25px;
+  left: 0;
+  width: 60px;
+  height: 10px;
+}
+.cross-y.right {
+  position: absolute;
+  background: #89FFDC;
+  top: 0;
+  left: 25px;
+  height: 60px;
+  width: 10px;
+}
+.cross-container.right:hover{
+  transform: rotate(45deg);
+  content: "Articles";
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: left;
+  color: black;
+}
 
 .dakota.heading{
     background-image:url(img/dakota6.jpg);

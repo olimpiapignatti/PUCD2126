@@ -13,7 +13,7 @@ html,body{
 
 /*Type Styles */
 
-.logo p{
+.logo>p>a{
   font-family: 'Josefin Slab', serif;
   font-weight: 800;
   font-size: 70px;
@@ -127,32 +127,66 @@ a:hover{
 }
 
 /* Article Layout*/
-.cross {
-   width: 100px;
-   height: 100px;
-   position: fixed;
-}
-.cross:before{
-  content: "";
+.cross-container.left {
+  width: 100px;
+  height: 100px;
   position: fixed;
+  top: 100px;
+  left: 3.4%;
+
+}
+.cross-x.left {
+  position: absolute;
   background: red;
-}
-.cross:after {
-  content: "";
-  position: fixed;
-  background: #89FFDC;
-}
-.cross:before {
-  top: 230px;
-  left: 30px;
+  top: 25px;
+  left: 0px;
   width: 60px;
   height: 10px;
 }
-.cross:after {
-  top: 205px;
-  left: 54px;
+.cross-y.left {
+  position: absolute;
+  background: #89FFDC;
+  top: 0px;
+  left: 25px;
   height: 60px;
   width: 10px;
+}
+.cross-container.left:hover {
+  transform: rotate(45deg);
+  content: "Issues";
+}
+
+.cross-container.right {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 92%;
+}
+.cross-x.right {
+  position: absolute;
+  background: red;
+  top: 25px;
+  left: 0;
+  width: 60px;
+  height: 10px;
+}
+.cross-y.right {
+  position: absolute;
+  background: #89FFDC;
+  top: 0;
+  left: 25px;
+  height: 60px;
+  width: 10px;
+}
+.cross-container.right:hover{
+  transform: rotate(45deg);
+  content: "Articles";
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: left;
+  color: black;
 }
 
 
@@ -209,7 +243,7 @@ img.col-6{
   .untouched.col-p-12{
     width: 100%;
   }
-.logo p {
+.logo>p>a {
   font-size: 60px;
 }
 h1{
@@ -236,7 +270,7 @@ img.col-6{
   }
 @media screen and (max-width: 460px){
 
-  .logo p{
+  .logo>p>a{
     font-size: 50px;
   }
   h1{
