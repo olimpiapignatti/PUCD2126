@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html,body{
@@ -12,7 +13,6 @@ html,body{
 }
 
 /*Type Styles */
-
 .logo>p>a{
   font-family: 'Josefin Slab', serif;
   font-weight: 800;
@@ -43,6 +43,20 @@ h2{
     letter-spacing: 0;
     line-height: 1.2;
     margin: 10px ;
+    text-decoration: none;
+}
+
+h2>a{
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  font-size: 35px;
+  color: #ADA6D9;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0px 50%;
+  text-decoration: none;
+  float: left;
 }
 
 h3{
@@ -53,7 +67,20 @@ h3{
   color: black;
   margin: 30px 0;
   font-size: 21px;
+  text-decoration: none;
 }
+
+h4{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 10px 1px ;
+  text-decoration: none;
+}
+
 
 .content p{
     font-family: 'Raleway', sans-serif;
@@ -106,9 +133,32 @@ h3{
 }
 
 /* Article Layout*/
-.cross-container.left {
+.issues{
   width: 100px;
-  height: 100px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 3.4%;
+  opacity: 0;
+}
+.issues:hover{
+  opacity: 1;
+}
+.explore{
+  width: 70px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 91%;
+  opacity: 0;
+}
+.explore:hover{
+  opacity: 1;
+}
+
+.cross-container.left {
+  width: 60px;
+  height: 60px;
   position: fixed;
   top: 100px;
   left: 3.4%;
@@ -131,12 +181,16 @@ h3{
 }
 .cross-container.left:hover {
   transform: rotate(45deg);
-  content: "Issues";
+  color: white;
+  /*content: "Issues";
+  font: italic 15px 'Josefin Slab', serif;
+  color: red;*/
+
 }
 
 .cross-container.right {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   position: fixed;
   top: 100px;
   left: 92%;
@@ -163,7 +217,6 @@ h3{
   font-family: 'Josefin Slab', serif;
   font-weight: 400;
   font-size: 80px;
-  text-align: left;
   color: black;
 }
 
@@ -274,7 +327,6 @@ h3{
     margin-left: 8.33%;
 }
 
-
 .image{
   margin: 0px auto;
 }
@@ -285,14 +337,18 @@ iframe{
 
 @media screen and (max-width: 750px){
   h1 { font-size: 34px; }
-  h2 { font-size: 26px; }
+  h2 { font-size: 26px;
+       margin: 10px 100px;}
   .content p { font-size: 18px; }
 
   .col-6{ width: 80%;}
-  .content.subheading.col-6 { margin-left: 1%; }
+  .content.subheading.col-6 { margin-left: 10%; }
   .col-8 { width: 80%; }
 
-
+  h2>a {
+    font-size: 25px;
+    margin: 0 350%;
+  }
   iframe {
     width: 80%;
     height: 40%;

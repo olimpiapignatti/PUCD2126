@@ -40,6 +40,16 @@ h2{
     text-align: right;
     margin: 0 0 100px 0;
 }
+h4{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 10px 1px ;
+  text-decoration: none;
+}
 
 p{
     font-family: 'Josefin Slab', serif;
@@ -127,6 +137,29 @@ a:hover{
 }
 
 /* Article Layout*/
+.issues{
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 3.4%;
+  opacity: 0;
+}
+.issues:hover{
+  opacity: 1;
+}
+.explore{
+  width: 70px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 91%;
+  opacity: 0;
+}
+.explore:hover{
+  opacity: 1;
+}
+
 .cross-container.left {
   width: 100px;
   height: 100px;

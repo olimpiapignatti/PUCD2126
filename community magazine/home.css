@@ -50,6 +50,16 @@ h2{
   margin: 0 0 100px 0;
   padding-right: 20px!important;
 }
+h4{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 10px 1px ;
+  text-decoration: none;
+}
 
 .heading p{
   font-family: 'Josefin Slab', serif;
@@ -141,14 +151,6 @@ a:hover{
   margin: 20px;
 }
 
-.menu li{
-  margin-bottom: 10px;
-}
-
-.menu ul:hover {
-  opacity: 1;
-}
-
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -169,6 +171,29 @@ a:hover{
 }
 
 /* Article Layout*/
+.issues{
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 3.4%;
+  opacity: 0;
+}
+.issues:hover{
+  opacity: 1;
+}
+.explore{
+  width: 70px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 91%;
+  opacity: 0;
+}
+.explore:hover{
+  opacity: 1;
+}
+
 .cross-container.left {
   width: 100px;
   height: 100px;
@@ -244,8 +269,9 @@ a:hover{
 
 .hover:hover{
   border-width: 9px;
-  border-color: #E10E0B;
+  border-color: #2b9c6c;
   border-style: solid;
+  box-shadow: 0 0px 10px 5px #2b9c6c inset;
 }
 
 /*individial things*/
@@ -266,7 +292,7 @@ p .col-4 {
   background-position: center;
   background-size: cover;
   float: left;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .dakota{
@@ -284,7 +310,7 @@ p .col-4 {
   background-position: center;
   background-size: cover;
   float: left;
-  margin: 0px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .summerpasture{
@@ -293,7 +319,7 @@ p .col-4 {
   background-position: center;
   background-size: cover;
   float: left;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .holyhell{
