@@ -73,6 +73,15 @@ a {
   display: block;
 }
 
+p .pullquote{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: black;
+  line-height: 1.7;
+  margin: 20px 0 20px 30px;
+}
+
 .col-6 a {
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
