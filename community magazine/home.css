@@ -325,124 +325,140 @@ p .col-4 {
   .summerpasture{ margin: 0;}
 }
 @media screen and (max-width: 1175px){
-  h1>a{ font-size: 80px;}
-  h2{ font-size: 25px;}
-  .heading p { font-size: 23px;
-    margin: 40px 0 40px 67%;}
-    .heading{ height: 80%;}
-    .dakota{ margin: 0;}
-    .summerpasture{ margin: 0;}
-  }
+  .logo>p>a { text-align: center;
+    margin: auto;}
+    h1>a{ font-size: 80px;}
+    h2{ font-size: 25px;}
+    .heading p { font-size: 23px;
+      margin: 40px 0 40px 67%;}
+      .heading{ height: 80%;}
+      .dakota{ margin: 0;}
+      .summerpasture{ margin: 0;}
+    }
 
 
-  @media screen and (max-width: 950px){
-    /*tablet size - if the screen is smaller than 1000 then apply these */
-    h1>a{ font-size: 65px;}
-    h2{ font-size: 15px;
-      margin: 10px auto 40px auto;
-      padding: 0 20px!important;}
+    @media screen and (max-width: 950px){
+      /*tablet size - if the screen is smaller than 1000 then apply these */
+      h1>a{ font-size: 65px;}
+      h2{ font-size: 15px;
+        margin: 10px auto 40px auto;
+        padding: 0 20px!important;}
       .heading p { font-size: 18px;
-        margin: 70px 0 40px 67%;}
-        .heading{ height: 75%;}
-        img .col-p-12{ width: 100%;}
-        .dakota{ margin: 0;}
-        .summerpasture{ margin: 0;}
-      }
-
-      @media screen and (max-width: 750px){
-        /*smaller mobile size - if the screen is smaller than 760 then apply these */
-
-        [class*="col-"] {
-          width: 100%;
-          padding: 10px;
-        }
-        .col-p-6{
-          width: 100%;
-        }
-        .col-p-12{
-          width: 100%;
+          margin: 70px 0 40px 67%;}
+      .heading{ height: 75%;}
+      img .col-p-12{ width: 100%;}
+      .dakota{ margin: 0;}
+      .summerpasture{ margin: 0;}
+      .cross-container.left {
+        top: 100px;
+        left: 2.4%;}
+      .cross-container.right {
+        top: 100px;
+        left: 90%;
         }
 
-        .a{
-          margin: 0!important;
-        }
-        .logo{
-          width: 100%;
-          margin: 0;
-          text-align: center;
         }
 
-        .logo>p>a{
-          text-align: center;
-          font-size: 55px;
-          padding: 0!important;
+        @media screen and (max-width: 750px){
+          /*smaller mobile size - if the screen is smaller than 760 then apply these */
+
+          [class*="col-"] {
+            width: 100%;
+            padding: 10px;
+          }
+          .col-p-6{
+            width: 100%;
+          }
+          .col-p-12{
+            width: 100%;
+          }
+
+          .a{
+            margin: 0!important;
+          }
+          .logo{
+            width: 100%;
+            margin: 0;
+            text-align: center;
+          }
+
+          .logo>p>a{
+            text-align: center;
+            font-size: 55px;
+            padding: 0!important;
+          }
+
+          h1>a{
+            font-size: 90px;
+            margin: 30px 25px 0 20px;
+            text-align: left;
+            padding-left: 10px!important;
+          }
+          h2{
+            margin: 10px 0 30px 0;
+            font-size: 35px;
+            padding-right: 35px!important;
+          }
+          .heading p{
+            font-size: 30px;
+            margin: 30px 65px;
+          }
+          .col-12>a{
+            font-size: 25px!important;
+            margin: 300px auto 5px auto;
+          }
+
+          .heading{
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            margin: auto;
+          }
+
+          img.col-p-12{
+            width: 95%;
+            margin: 0 2.5%;
+          }
+
+          .semana.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .dakota.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .sweetgrass.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .summerpasture.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .holyhell.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .hasid.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
         }
 
-        h1>a{
-          font-size: 90px;
-          margin: 30px 25px 0 20px;
-          text-align: left;
-          padding-left: 10px!important;
+        @media screen and (max-width: 700px){
+          .logo>p>a{ margin: 5px 3%}
+          .cross-container.left {
+            top: 100px;
+            left: 2.4%;}
+          .cross-container.right {
+            top: 100px;
+            left: 84%;
+            }
         }
-        h2{
-          margin: 10px 0 30px 0;
-          font-size: 35px;
-          padding-right: 35px!important;
-        }
-        .heading p{
-          font-size: 30px;
-          margin: 30px 65px;
-        }
-        .col-12>a{
-          font-size: 25px!important;
-          margin: 300px auto 5px auto;
-        }
-
-        .heading{
-          width: 100%;
-          height: auto;
-          padding: 10px;
-          margin: auto;
-        }
-
-        img.col-p-12{
-          width: 95%;
-          margin: 0 2.5%;
-        }
-
-        .semana.col-p-12{
-          width: 100%;
-          height:70%;
-          margin: 0;
-        }
-        .dakota.col-p-12{
-          width: 100%;
-          height:70%;
-          margin: 0;
-        }
-        .sweetgrass.col-p-12{
-          width: 100%;
-          height:70%;
-          margin: 0;
-        }
-        .summerpasture.col-p-12{
-          width: 100%;
-          height:70%;
-          margin: 0;
-        }
-        .holyhell.col-p-12{
-          width: 100%;
-          height:70%;
-          margin: 0;
-        }
-        .hasid.col-p-12{
-          width: 100%;
-          height:70%;
-          margin: 0;
-        }
-      }
-
-      @media screen and (max-width: 700px){
-        .logo>p>a{ margin: 5px 3%}
-
-      }

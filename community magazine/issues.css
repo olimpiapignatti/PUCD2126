@@ -180,7 +180,7 @@ a:hover{
   width: 10px;
 }
 .cross-container.right:hover{
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
   content: "Articles";
   font-family: 'Josefin Slab', serif;
   font-weight: 400;
@@ -266,6 +266,13 @@ h1{
 img.col-6{
   margin: 0 0 20px 0;
 }
+.cross-container.left {
+  top: 100px;
+  left: 2.4%;}
+.cross-container.right {
+  top: 100px;
+  left: 84%;
+    }
 
   }
 @media screen and (max-width: 460px){
