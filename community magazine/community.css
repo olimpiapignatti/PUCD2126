@@ -13,12 +13,14 @@ html,body{
 
 /*Type Styles */
 
-.logo p{
+.logo>p>a{
   font-family: 'Josefin Slab', serif;
   font-weight: 800;
   font-size: 70px;
   margin: auto;
   text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
 h1{
@@ -55,8 +57,7 @@ h3{
   font-size: 21px;
 }
 
-p{
-    /* Lorem ipsum dolor si: */
+.content p{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -72,6 +73,11 @@ p{
   font-size: 100px;
   font-weight: 700;
   font-style: italic;
+  text-align: center;
+}
+
+.menu {
+  
 }
 
 .col-1 {width: 8.33%;}
@@ -120,7 +126,7 @@ p{
 .cross:after {
   content: "";
   position: fixed;
-  background: #9387CA;
+  background: #89FFDC;
 }
 .cross:before {
   top: 230px;
@@ -251,3 +257,49 @@ iframe{
   margin: auto;
   display: block;
 }
+
+@media screen and (max-width: 750px){
+  h1 { font-size: 34px; }
+  h2 { font-size: 26px; }
+  .content p { font-size: 18px; }
+
+  .col-6{ width: 80%;}
+  .content.subheading.col-6 { margin-left: 1%; }
+  .col-8 { width: 80%; }
+
+
+  iframe {
+    width: 80%;
+    height: 40%;
+    }
+  .content.col-8{
+    width: 80%;
+    margin-left: 11%;
+  }
+  .content-img-portrait{
+    width: 100%;
+  }
+  .heading {
+    height: 80%!important;
+  }
+  .heading h1 {
+    top: 40%;
+  }
+  .content-img-landscape{
+    margin: 0;
+  }
+  .meta {
+    font-size: 12px;
+    padding: 0;
+  }
+  .hasid.content.subheading {
+    margin-left: 9%;
+  }
+  .semana.content.subheading.col-6 {
+    margin-left: 10%;
+  }
+
+}
+
+@media screen and (max-width: 500px){
+  .logo>p>a { font-size: 50px;}
