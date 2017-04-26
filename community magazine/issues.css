@@ -168,7 +168,6 @@ a:hover{
 .explore:hover{
   opacity: 1;
 }
-
 .cross-container.left {
   width: 100px;
   height: 100px;
@@ -222,7 +221,7 @@ a:hover{
   width: 10px;
 }
 .cross-container.right:hover{
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   content: "Articles";
   font-family: 'Josefin Slab', serif;
   font-weight: 400;
@@ -230,7 +229,6 @@ a:hover{
   text-align: left;
   color: black;
 }
-
 
 .title{
     font-style: italic;
