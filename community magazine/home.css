@@ -137,20 +137,6 @@ a:hover{
   text-align: center;
 }
 
-.menu>ul{
-  font-family: 'Josefin Slab', serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: left;
-  color: red;
-  position: fixed;
-  top: 260px;
-  left: 10px;
-  list-style: none;
-  opacity: 0;
-  margin: 20px;
-}
-
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -338,6 +324,8 @@ p .col-4 {
   float: left;
   margin: 10px 0 10px 0;
 }
+
+
 /*media querey*/
 
 @media screen and (max-width: 1325px){
