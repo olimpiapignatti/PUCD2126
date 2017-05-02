@@ -10,34 +10,88 @@ html, body { width: 100%; height: 100%; background: url(dot_background.jpg) no-r
 	font-family: 'Orbitron', sans-serif;
 }
 
-
 h1 {
-	font: normal 70px 'Rock Salt', cursive;
-	text-align: center;
-	line-height: 1.3;
-	margin: 30px;
-	color: white;
-	}
-
-h2 {
-	font: normal 60px 'Press Start 2P', cursive;
-	text-align: center;
-	margin: 30px;
-	color: white;
-  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5 ;
-}
-
-h3 {
 	font: normal 90px 'Orbitron', sans-serif;
 	text-align: center;
-	margin: 30px;
+	margin: 30px auto;
 	color: white;
 	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5 ;
 }
 
+	p {
+		font: normal 25px 'Orbitron', sans-serif;
+	  margin: -5px 0 40px 0;
+		color: yellow;
+		background-color: black;
+		line-height: 1.5;
+		padding: 6px;
+		text-align: center;
+		width: 100%;
+		text-decoration: none;
+	}
 
-	p { font: normal 15px 'Raleway', sans-serif; margin: 12px; color: darkgreen; }
 	li { font: normal 20px 'Raleway', sans-serif; margin: 12px; color: #f5ff55; }
-	a { font: normal 20px 'Raleway', sans-serif; margin: 12px; color: #75c59e; }
+
+	a {
+	font: normal 20px 'Raleway', sans-serif;
+	margin: 0px;
+	color: #75c59e;
+	text-decoration: none;
+}
 
 	a:hover { color: #56a0d3; }
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+.icons{
+	position: fixed;
+	top: 90%;
+	width: 102%;
+	margin: 0 0 0 -9px;
+}
+.week{
+	position: fixed;
+	top: 90%;
+	left: 0;
+	width: 21%;
+	height: 10%;
+}
+.artists {
+	position: fixed;
+	top: 90%;
+	left: 20%;
+	width: 21%;
+	height: 10%;
+}
+.genres {
+	position: fixed;
+	top: 90%;
+	left: 40%;
+	width: 21%;
+	height: 10%;
+}
+.clubs {
+	position: fixed;
+	top: 90%;
+	left: 60%;
+	width: 21%;
+	height: 10%;
+}
+.account {
+	position: fixed;
+	top: 90%;
+	left: 80%;
+	width: 21%;
+	height: 10%;
+}
