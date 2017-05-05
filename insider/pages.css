@@ -1,4 +1,4 @@
-html, body { width: 100%; height: 100%; background: url(dot_background.jpg) no-repeat center center fixed; background-size: cover;  }
+html, body { width: 100%; height: 100%; margin:0px; background: url(dot_background.jpg) no-repeat center center fixed; background-size: cover;  }
 
 @font-face {
 	font-family: 'Bungee', cursive;
@@ -11,9 +11,9 @@ html, body { width: 100%; height: 100%; background: url(dot_background.jpg) no-r
 }
 
 h1 {
-	font: normal 170px 'Orbitron', sans-serif;
+	font: normal 190px 'Orbitron', sans-serif;
 	text-align: center;
-	margin: 35px auto;
+	margin: 100px auto;
 	color: white;
 	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5;
 	}
@@ -35,14 +35,14 @@ h1 {
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 }
 
 .box{
-	background-color: white;
-	opacity: 0.8;
+	background-color:rgba(255, 255, 255, 0.8);
 	border: 4px solid black;
 	padding: 15px;
+	width: 100%;
 }
 
 
@@ -61,14 +61,16 @@ h1 {
 
 .genreslist{
 	height: 80%;
-	background-color: white;
-	opacity: 0.8;
 	border: 1px solid black;
+	margin-bottom: 300px;
+}
+.accountlist{
+	margin-top: 300px;
+}
+.space {
+	margin: 14% 0px;
 }
 
-.artistslist{
-
-}
 
 .icons{
 	position: fixed;
@@ -110,4 +112,8 @@ h1 {
 	left: 80%;
 	width: 21%;
 	height: 10%;
+}
+
+.last{
+	margin-bottom: 250px;
 }
