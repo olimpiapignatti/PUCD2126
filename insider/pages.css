@@ -65,7 +65,7 @@ h1 {
 	margin-bottom: 300px;
 }
 .accountlist{
-	margin-top: 300px;
+	margin-top: 200px;
 }
 .space {
 	margin: 14% 0px;
@@ -74,7 +74,7 @@ h1 {
 
 .icons{
 	position: fixed;
-	bottom: -1px;
+	bottom: -10px;
 	width: 102%;
 	margin: 0 0 0 -9px;
 }

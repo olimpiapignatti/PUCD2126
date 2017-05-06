@@ -58,7 +58,7 @@ h1 {
 
 .icons{
 	position: fixed;
-	bottom: -1px;
+	bottom: -10px;
 	width: 102%;
 	margin: 0 0 0 -9px;
 }
@@ -102,7 +102,7 @@ h1 {
 	margin-bottom: 130px;
 	background-color:rgba(255, 255, 255, 0.6);
 	border: 10px solid white;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
 .title{
@@ -113,11 +113,11 @@ h1 {
 	background-color: black;
 }
 
-.clublocation{
-	margin: 0 0 20px 4%;
+.clublocation {
+	margin: 0 0 20px 7%;
 	background-color: black;
 	padding: 10px;
 }
 .last{
-	margin-bottom: 250px;
+	margin-bottom: 350px;
 }
