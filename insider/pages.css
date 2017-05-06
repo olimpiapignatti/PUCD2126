@@ -59,18 +59,37 @@ h1 {
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
 
+.az{
+	margin: 10px 3px 30px 3px;
+}
+
+li {
+	float: left;
+	color: white;
+	background-color: black;
+	list-style: none;
+	margin: 10px 40px 30px 40px;
+}
+li>a{
+	color: yellow;
+}
+ul{
+	margin-bottom: 20px;
+}
 .genreslist{
 	height: 80%;
 	border: 1px solid black;
 	margin-bottom: 300px;
 }
+.artistslist{
+	margin-top: 60%;
+}
 .accountlist{
-	margin-top: 200px;
+	margin-top: 100px;
 }
 .space {
-	margin: 14% 0px;
+	margin: 11% 0px;
 }
-
 
 .icons{
 	position: fixed;
