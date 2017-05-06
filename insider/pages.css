@@ -117,3 +117,7 @@ h1 {
 .last{
 	margin-bottom: 250px;
 }
+.save{
+	border: 6px solid white;
+	margin-top: 70px;
+}
