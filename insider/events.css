@@ -57,6 +57,7 @@ a:hover { color: yellow; }
 	left: 0;
 	width: 21%;
 	height: 10%;
+	background-color: transparent;
 }
 .artists {
 	position: fixed;
@@ -64,6 +65,7 @@ a:hover { color: yellow; }
 	left: 20%;
 	width: 21%;
 	height: 10%;
+	background-color: transparent;
 }
 .genres {
 	position: fixed;
@@ -71,6 +73,7 @@ a:hover { color: yellow; }
 	left: 40%;
 	width: 21%;
 	height: 10%;
+	background-color: transparent;
 }
 .clubs {
 	position: fixed;
@@ -78,6 +81,7 @@ a:hover { color: yellow; }
 	left: 60%;
 	width: 21%;
 	height: 10%;
+	background-color: transparent;
 }
 .account {
 	position: fixed;
@@ -85,6 +89,7 @@ a:hover { color: yellow; }
 	left: 80%;
 	width: 21%;
 	height: 10%;
+	background-color: transparent;
 }
 
 .event {
